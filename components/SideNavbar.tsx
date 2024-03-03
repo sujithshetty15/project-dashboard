@@ -11,6 +11,7 @@ import {
     ShoppingCart,
     UserRound,
     ChevronRight,
+    CupSoda,
 } from "lucide-react"
 import { Button } from "./ui/button"
 
@@ -57,6 +58,12 @@ export default function SideNavbar({ }: Props) {
                         title: "Orders",
                         href: "/orders",
                         icon: ShoppingCart,
+                        variant: "ghost",
+                    },
+                    {
+                        title: "Sponsers",
+                        href: "/sponsers",
+                        icon: CupSoda,
                         variant: "ghost",
                     },
                     {
